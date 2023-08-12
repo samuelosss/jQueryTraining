@@ -104,5 +104,5 @@ $("h1").text("Bye");
 
 //U can chain them together :o !!!
 $("img").on("mouseover", function () {
-	$("img").slideUp(700).slideDown(3000).animate(1500, { opacity: 0.15 });
+	$("img").slideUp(700).slideDown(3000).animate({ opacity: 0.15 }, 1500);
 });
